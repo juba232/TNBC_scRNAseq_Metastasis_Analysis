@@ -1,12 +1,12 @@
-TNBC Single-Cell RNA-seq Metastasis Analysis
+# TNBC Single-Cell RNA-seq Metastasis Analysis
 
 Comprehensive scRNA-seq analysis of triple-negative breast cancer (TNBC) using patient-derived single-cell transcriptomic data (GSE118389).
 
-🔬 Project Goal
+* 🔬 Project Goal
 
 Identify metastatic subpopulations and molecular drivers of metastasis using single-cell RNA sequencing (scRNA-seq).
 
-📌 Key Results
+## 📌 Key Results
 
 - 908 high-quality TNBC cells analyzed
 
