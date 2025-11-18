@@ -21,3 +21,21 @@ Identify metastatic subpopulations and molecular drivers of metastasis using sin
 - ECM remodeling & immune evasion identified as major pathways
 
 - Six candidate therapeutic targets identified
+
+
+## 🧰 Tools Used
+
+- R 4.3.1
+
+- Seurat 4.4
+
+- ggplot2, patchwork
+
+- clusterProfiler
+
+- EnhancedVolcano
+
+> ## 📚 Dataset
+
+GEO Accession: GSE118389
+Karaayvaz et al., Nature Communications (2018)
