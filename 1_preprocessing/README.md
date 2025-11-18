@@ -11,3 +11,7 @@ This folder contains QC, filtering, normalization, PCA, UMAP, and clustering ste
 - [x] Run UMAP
 - [x] Identify clusters (resolution = 0.5)
 
+## Outputs
+- [x] QC Plots
+- [x] PCA
+- [x] UMAP
