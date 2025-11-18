@@ -8,16 +8,16 @@ Identify metastatic subpopulations and molecular drivers of metastasis using sin
 
 📌 Key Results
 
-908 high-quality TNBC cells analyzed
+- 908 high-quality TNBC cells analyzed
 
-16 transcriptionally distinct clusters
+- 16 transcriptionally distinct clusters
 
-3 metastasis signatures applied (Arteaga, MammaPrint, Werb)
+- 3 metastasis signatures applied (Arteaga, MammaPrint, Werb)
 
-25% of cells classified as high-metastasis
+- 25% of cells classified as high-metastasis
 
-710 differentially expressed genes
+- 710 differentially expressed genes
 
-ECM remodeling & immune evasion identified as major pathways
+- ECM remodeling & immune evasion identified as major pathways
 
-Six candidate therapeutic targets identified
+- Six candidate therapeutic targets identified
