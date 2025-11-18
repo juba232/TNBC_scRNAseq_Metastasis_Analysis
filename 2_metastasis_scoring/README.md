@@ -10,7 +10,7 @@
 
 ## Workflow
 
-- [x]AddModuleScore for each gene set
+- [x] AddModuleScore for each gene set
 
 - [x] Combined metastasis score
 
