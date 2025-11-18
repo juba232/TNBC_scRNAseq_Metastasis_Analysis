@@ -185,7 +185,6 @@ figure2 <- (p2a | p2b) / (p2c | p2d) +
 ggsave("Figure2_Clustering_UMAP.png", figure2, width = 14, height = 12)
 print(figure2)
 
-
 # Find marker genes for each cluster
 cluster_markers <- FindAllMarkers(seurat_filtered, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
 cat("Top markers per cluster:\n")
