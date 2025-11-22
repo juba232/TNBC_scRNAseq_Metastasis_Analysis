@@ -182,7 +182,7 @@ figure2 <- (p2a | p2b) / (p2c | p2d) +
   plot_annotation(tag_levels = 'A', 
                   title = 'Figure 2: Cell Clustering and Batch Effects')
 
-ggsave("Figure2_Clustering_UMAP.png", figure2, width = 14, height = 12)
+#ggsave("Figure2_Clustering_UMAP.png", figure2, width = 14, height = 12)
 print(figure2)
 
 # Find marker genes for each cluster
@@ -202,3 +202,13 @@ p3a <- DotPlot(seurat_filtered, features = c(epithelial_markers, immune_markers,
   ggtitle("Cell Type Marker Expression")
 
 print(p3a)
+
+
+# === SAVE FILES FOR METASTASIS ANALYSIS ===
+saveRDS(seurat_filtered, file = "seurat_processed_metastasis.rds")
+write.csv(cluster_markers, "cluster_markers.csv", row.names = FALSE)
+write.csv(top_markers, "top_markers_per_cluster.csv", row.names = FALSE)
+
+cat("Seurat object saved as 'seurat_processed_metastasis.rds'\n")
+cat("Marker genes saved as CSV files for reference\n")
+cat("Ready for metastasis analysis!\n")
